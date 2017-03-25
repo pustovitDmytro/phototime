@@ -244,7 +244,7 @@ header .btn-start{
 }
 #sec-four input[type="email"]{
     width: 280px;
-    height: 60px;
+    height: 58px;
 }
 
 #sec-four input[type="submit"] {
@@ -277,14 +277,76 @@ header .btn-start{
 	color:#373737; 
 	font-family: GothmRoundedMedium;
 	padding-left: 20px;
-	font-size: 16px;  } /* firefox 19+ */
-:-ms-input-placeholder {  
+	font-size: 16px;  }
+:-ms-input-placeholder {
 	color:#373737; 
 	font-family: GothmRoundedMedium;
 	padding-left: 20px;
-	font-size: 16px;  } /* ie */
+	font-size: 16px;  }
 input:-moz-placeholder {  
 	color:#373737; 
 	font-family: GothmRoundedMedium;
 	padding-left: 20px;
 	font-size: 16px; }
+
+#sec-five{
+	width: 1280px;
+	height: 396px;
+	background-color: #f5f6f7;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+	color: #373737;
+	text-align: center;
+}
+#sec-five h2{
+	font-family: GothmRoundedBold;
+	font-size: 20px;
+}
+#sec-five p{
+	font-family: GothmRoundedMedium;
+	font-size: 12px;
+	margin-top: 17px;
+}
+#sec-five .big{
+	width: 250px;
+	height: 56px;
+	background-color: #1abc9c;
+	background-image: url(../images/ico-apple.png);
+	background-position: right;
+	background-repeat: no-repeat; 
+}
+
+
+
+footer{
+	width: 1280px;
+	height: 132px;
+	background-color: #ffffff;	
+	color: #373737;
+}
+footer .wrapper{
+	float: left;
+	margin-left: 128px;
+	margin-top: 47px;
+}
+footer .copyright{
+	font-family: GothmRoundedBold;
+	font-size: 14px;
+	color: #373737;
+	margin-top: 27px;
+}
+footer .bottom-nav li{
+	float: left;
+	margin-right: 10px;
+	font-family: GothmRoundedBold;
+	font-size: 14px;
+}
+.line{
+	color: #16a085;
+}
+footer .camera-logo{
+	float: right;
+	margin: 39px 128px;
+}
