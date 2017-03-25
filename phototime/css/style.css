@@ -49,11 +49,6 @@ nav a{
 	font-weight: bold;
 	color: #ccc;
 }
-header:after{
-	content: "";
-	display: table;
-	clear: both;
-}
 .title{
 	margin-top: 240px;
 }
@@ -181,11 +176,54 @@ header .btn-start{
 	height:16px;
 	border:none;
 	display: block;
-	margin-right: 22px;
 	float:left;
 	background: url(../images/buttons.png) no-repeat 0 0;
 }
-
 #slider-right{
 	background-position: -32px 0;
+	margin-left: 22px;
 }
+#sec-three{
+	height: 484px;
+	width: 1280px;
+	background-color: #f5f6f7
+}
+#sec-three .sec3wrap{
+	margin-top: 95px;
+	margin-right: 128px;
+	float: right;
+}
+.to-right{
+	width: 1152px;
+}
+.to-right button{
+	float: right;
+}
+#right-btn{
+	background-position: -32px 0;
+	margin-left: 15px;
+}
+#sec-three .text-wrapper{
+	width: 385px;
+	text-align: center;
+}
+#sec-three .wrapper{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+#sec-three h2{
+	color: #373737;
+	font-size: 16px;
+	font-family: GothmRoundedBold;
+}
+#sec-three p{
+	font-family: GothmRoundedMedium;
+	font-size: 10px;
+	color: #373737;
+}
+#sec-tree img{
+	width: 370px;
+	height: 244px;
+}
+
