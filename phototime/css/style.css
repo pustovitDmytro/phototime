@@ -309,13 +309,25 @@ input:-moz-placeholder {
 	font-size: 12px;
 	margin-top: 17px;
 }
+#sec-five .store-buttons{
+	margin-top: 46px;
+}
 #sec-five .big{
 	width: 250px;
 	height: 56px;
 	background-color: #1abc9c;
 	background-image: url(../images/ico-apple.png);
 	background-position: right;
-	background-repeat: no-repeat; 
+	background-repeat: no-repeat;
+	color: #ffffff;
+	font-family: GothmRoundedBold;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 30px;
+}
+
+#sec-five .play-store{
+	background-image: url(../images/ico-android.png);
 }
 
 
