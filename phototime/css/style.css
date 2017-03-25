@@ -195,6 +195,7 @@ header .btn-start{
 }
 .to-right{
 	width: 1152px;
+	height: 26px;
 }
 .to-right button{
 	float: right;
@@ -210,7 +211,7 @@ header .btn-start{
 #sec-three .wrapper{
 	display: flex;
 	justify-content: flex-end;
-	align-items: flex-end;
+	align-items: flex-start;
 }
 #sec-three h2{
 	color: #373737;
@@ -226,4 +227,64 @@ header .btn-start{
 	width: 370px;
 	height: 244px;
 }
+#sec-four{
+	width: 1280px;
+	height: 790px;	
+	background: url(../images/back4.jpg);
+	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#sec-four h2{
+	color: #ffffff;
+	font-size: 24px;
+	font-family: GothmRoundedBold;
+}
+#sec-four input[type="email"]{
+    width: 280px;
+    height: 60px;
+}
 
+#sec-four input[type="submit"] {
+    margin-left: -5px;
+    color: transparent;
+    height: 60px;
+    width: 63x;
+    background: url(../images/ok.png) no-repeat 0 0;
+    border: none;
+    border-radius: 3px;
+}
+#sec-four .mail-form{
+	margin-top: 35px;
+}
+#img-bus{
+	margin-right: 26px;
+}
+.camera-logo{
+	width: 59px;
+	height: 55px;
+	border: none;
+}
+
+::-webkit-input-placeholder { 
+	color:#373737; 
+	font-family: GothmRoundedMedium;
+	padding-left: 20px;
+	font-size: 16px; }
+::-moz-placeholder {  
+	color:#373737; 
+	font-family: GothmRoundedMedium;
+	padding-left: 20px;
+	font-size: 16px;  } /* firefox 19+ */
+:-ms-input-placeholder {  
+	color:#373737; 
+	font-family: GothmRoundedMedium;
+	padding-left: 20px;
+	font-size: 16px;  } /* ie */
+input:-moz-placeholder {  
+	color:#373737; 
+	font-family: GothmRoundedMedium;
+	padding-left: 20px;
+	font-size: 16px; }
