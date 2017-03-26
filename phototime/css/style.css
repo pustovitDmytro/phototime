@@ -1,3 +1,5 @@
+/* General */
+
 *{
 	margin: 0;
 	padding: 0;
@@ -9,11 +11,18 @@ a{
 	text-decoration: none;
 }
 
+
+/* Header */
+
+
 header{
 	height: 745px;
 	width: 1280px;
 	background: url(../images/headerbg.jpg);
 	background-size: 100%;
+	display: flex;
+	flex-direction: row;	
+	justify-content: center;
 }
 header .wrapper{
 	width: 760px;
@@ -45,7 +54,7 @@ header nav .nav-right{
 nav a{
 	font-size: 16px;
 	font-family: GothmRoundedBold;
-	font-weight: bold;
+	letter-spacing: 3px;
 	color: #ccc;
 }
 .title{
@@ -55,6 +64,7 @@ nav a{
 	font-size: 36px;
 	font-family: GothmRoundedBold;
 	text-align: center;
+	letter-spacing: 5.3px;
 	color: #ccc;
 }
 @font-face{
@@ -67,14 +77,17 @@ nav a{
 	font-weight: bold;
 	text-align: center;
 	color: #ccc;
+	margin-top: 4px;
+	letter-spacing: 2.5px;
 }
 .btn-start{
 	width: 166px;
 	height: 50px;
-	margin: 30px auto;
+	margin: 22px auto;
 	font-size: 12px;
 	font-family: GothmRoundedBold;
-	font-weight: bold;
+	font-weight: bold;	
+	letter-spacing: 2px;
 	color: #ccc;
 	border-radius: 3px;
 	border: none;
@@ -94,15 +107,20 @@ header .btn-start{
 	width:23px;
 	height:21px;
 	display: block;
-	margin-left: 16px;
 	background: url(../images/sprite.png) no-repeat 0 0;
 }
 #fi{
-	background-position: -39px 0;
+	background-position: -39px 0;	
+	margin-left: 15px;
+	margin-right: 15px;
 }
 #dr{
 	background-position: -78px 0;
 }
+
+
+/* Section 1 */
+
 
 #sec-first{
 	height: 492px;
@@ -136,6 +154,14 @@ header .btn-start{
 	margin-top: 92px;
 	float: right;
 }
+
+
+
+/* Section 2 */
+
+
+
+
 #sec-two{
 	height: 558px;
 	width: 1280px;
@@ -182,6 +208,16 @@ header .btn-start{
 	background-position: -32px 0;
 	margin-left: 22px;
 }
+
+
+
+
+/* Section 3 */
+
+
+
+
+
 #sec-three{
 	height: 484px;
 	width: 1280px;
@@ -228,6 +264,12 @@ header .btn-start{
 	width: 370px;
 	height: 244px;
 }
+
+
+/* Section 4 */
+
+
+
 #sec-four{
 	width: 1280px;
 	height: 790px;	
@@ -290,6 +332,14 @@ input:-moz-placeholder {
 	padding-left: 20px;
 	font-size: 16px; }
 
+
+
+
+/* Section 5 */
+
+
+
+
 #sec-five{
 	width: 1280px;
 	height: 396px;
@@ -330,6 +380,12 @@ input:-moz-placeholder {
 #sec-five .play-store{
 	background-image: url(../images/ico-android.png);
 }
+
+
+
+/* footer */
+
+
 
 
 
